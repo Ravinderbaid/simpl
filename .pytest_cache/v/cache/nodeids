@@ -1,0 +1,6 @@
+[
+  "tests/test_customer_model.py::TestClassCustomer::()::test_customer_email",
+  "tests/test_customer_model.py::TestClassCustomer::()::test_customer_set_email_negative",
+  "tests/test_customer_model.py::TestClassCustomer::()::test_customer_name",
+  "tests/test_customer_model.py::TestClassCustomer::()::test_customer_set_name_negative"
+]
