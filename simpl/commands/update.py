@@ -3,7 +3,7 @@ from model import Merchant, InvalidDiscountException, InvalidMerchantException
 
 
 class CmdUpdate(Cmd):
-    def process(self, type: str,merchant: str, discount: float) -> None:
+    def process(self, type: str, merchant: str, discount: float) -> None:
         try:
             merchant_object = Merchant.instances.get(merchant)
             if merchant_object:
@@ -11,7 +11,7 @@ class CmdUpdate(Cmd):
                 merchant_object.discount = discount
                 print(f"Discount updated from {old_dicount} to {discount}")
             else:
-                raise InvalidMerchantException("Invalid user")
+                raise InvalidMerchantException("Invalid merchant")
         except InvalidDiscountException as e:
             print(e.args)
         except InvalidMerchantException as e:

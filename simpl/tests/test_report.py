@@ -1,7 +1,7 @@
 from commands.report.report import CmdReport
 
 
-class TestNew:
+class TestReport:
 
     def setup(self):
         self.object_report = CmdReport()
@@ -18,7 +18,7 @@ class TestNew:
 
     def test_process_exception(self):
         try:
-            self.object_report.process("total-dues",{"1":"123"})
+            self.object_report.process("total-dues", {"1": "123"})
             assert False
         except Exception:
             assert True

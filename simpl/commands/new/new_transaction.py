@@ -10,8 +10,8 @@ class CmdNewTransaction(Cmd):
         user_object = User.instances.get(user)
         merchant_object = Merchant.instances.get(merchant)
         if user_object and merchant_object:
-            amount = float(amount)
             try:
+                amount = float(amount)
                 Transaction(user, merchant, amount)
                 if user_object.request_credit(amount):
                     print("success")

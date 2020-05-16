@@ -42,3 +42,11 @@ class TestNewTransaction:
             assert False
         except Exception as e:
             assert e.args[0] == "rejected: reason: Invalid user or merchant"
+
+
+    def test_process_exception(self):
+        try:
+            self.object_new_transaction.process("ra", "ama", [-10])
+            assert False
+        except Exception:
+            assert True

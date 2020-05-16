@@ -5,5 +5,5 @@ __all__ = ["Cmd"]
 
 class Cmd(ABC):
     @abstractmethod
-    def process(self, *args: str) -> None:
+    def process(self, *args: str) -> None:  # pragma: no cover
         pass

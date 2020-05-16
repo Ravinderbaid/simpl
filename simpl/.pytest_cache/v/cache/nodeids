@@ -47,5 +47,18 @@
   "tests/test_report_users_at_credit_limit.py::TestReportUsersAtCreditLimit::test_process_all",
   "tests/test_report.py::TestNew::test_process",
   "tests/test_report.py::TestNew::test_process_negative",
-  "tests/test_report.py::TestNew::test_process_exception"
+  "tests/test_report.py::TestNew::test_process_exception",
+  "tests/test_payback.py::TestPayback::test_process",
+  "tests/test_payback.py::TestPayback::test_process_user_negative",
+  "tests/test_payback.py::TestPayback::test_process_amount_negative",
+  "tests/test_payback.py::TestPayback::test_process_exception",
+  "tests/test_report.py::TestReport::test_process",
+  "tests/test_report.py::TestReport::test_process_negative",
+  "tests/test_report.py::TestReport::test_process_exception",
+  "tests/test_update.py::TestUpdate::test_process",
+  "tests/test_update.py::TestUpdate::test_process_user_negative",
+  "tests/test_update.py::TestUpdate::test_process_amount_negative",
+  "tests/test_update.py::TestUpdate::test_process_exception",
+  "tests/test_main.py::test_main",
+  "tests/test_new_transaction.py::TestNewTransaction::test_process_exception"
 ]
