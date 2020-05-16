@@ -2,3 +2,5 @@
 **/*.pyc
 .venv
 .idea
+.vscode
+.pytest_cache
