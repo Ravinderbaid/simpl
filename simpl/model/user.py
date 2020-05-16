@@ -33,7 +33,7 @@ class User(Customer):
     def credit_limit(self, value) -> None:
         if value < 0:
             raise InvalidCreditLimitException(
-                f"Credit limit cannot be less than 0")
+                "Credit limit cannot be less than 0")
         self._credit_limit = float(value)
 
     def request_credit(self, amount: float) -> None:
@@ -48,8 +48,8 @@ class User(Customer):
         maximum_payable = self._credit_limit - self._remaining_credit
         if amount > maximum_payable:
             raise InvalidPaybackAmountException(
-                f"Trying to pay back more than needed"
-            )  # todo: come up with a better exception name
+                "Trying to pay back more than needed"
+            )
         self._remaining_credit += amount
 
     def user_dues(self) -> float:

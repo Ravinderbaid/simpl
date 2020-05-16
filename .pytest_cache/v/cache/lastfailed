@@ -19,6 +19,7 @@
   "tests/test_main.py": true,
   "tests/test_merchant_model.py::TestMerchant::()::test_update_discount_negative": true,
   "tests/test_merchant_model.py::TestMerchant::()::test_update_discount_positive": true,
+  "tests/test_new_merchant.py": true,
   "tests/test_report.py": true,
   "tests/test_transact.py": true,
   "tests/test_user_model.py::TestUser::()::test_user_checklimit": true,

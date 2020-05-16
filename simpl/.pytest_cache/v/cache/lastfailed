@@ -1,0 +1,4 @@
+{
+  "tests/test_new_transaction.py::TestNewMerchant::test_process_invalid_transaction": true,
+  "tests/test_report_discount.py::TestNewReport": true
+}

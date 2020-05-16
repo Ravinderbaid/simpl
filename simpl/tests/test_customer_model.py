@@ -1,5 +1,5 @@
-from simpl.model.exceptions import EmailException, NameException
-from simpl.model.customer import Customer
+from model.exceptions import EmailException, NameException
+from model.customer import Customer
 
 
 class TestClassCustomer:

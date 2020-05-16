@@ -1,6 +1,6 @@
 {
     "python.linting.enabled": true,
-    "python.pythonPath": "/home/morv/.pyenv/versions/3.8.1/bin/python",
+    "python.pythonPath": "/home/morv/.local/share/virtualenvs/simpl-2luFQeTc/bin/python3.8",
     "python.linting.pylintEnabled": true,
     "python.linting.lintOnSave": true,
     "python.formatting.provider": "autopep8",
