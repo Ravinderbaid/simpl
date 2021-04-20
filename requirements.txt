@@ -1,15 +1,15 @@
--i https://pypi.org/simple
+-i https://pypi.org/simple/
 attrs==19.3.0
 colorama==0.4.3
 coverage==5.1
 funcsigs==1.0.2
 mock==3.0.5
 more-itertools==5.0.0
-packaging==20.3
+packaging==20.9
 pep8==1.7.1
 pluggy==0.13.1
-py==1.8.1
+py==1.10.0
 pyparsing==2.4.7
 pytest==5.4.2
 six==1.14.0
-wcwidth==0.1.9
+wcwidth==0.2.5
